@@ -1,2 +1,20 @@
-/* future CSS for To Do App
-*/
+#todo {
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+#box { 
+  width: 500px; 
+  height: 100px; 
+  border: 1px solid black; 
+  background: transparent 
+  } 
