@@ -1,0 +1,19 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "todo app built by mike",
+  "main": "todo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eekimmai/todoapp.git"
+  },
+  "author": "miguel lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eekimmai/todoapp/issues"
+  },
+  "homepage": "https://github.com/eekimmai/todoapp#readme"
+}
