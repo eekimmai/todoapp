@@ -9,13 +9,13 @@ const server = http.createServer((req, res) => {
   
   
   //add OWN path
-  let path = './todoapp';
+  let path = '';
   switch(req.url) {
     case '/':
         path += 'index.html';
         res.statusCode = 200;
         break;
-    case 'trash':
+    case '/trash':
         path += 'trash.html';
         res.statusCode = 200;
         break;
@@ -36,4 +36,8 @@ const server = http.createServer((req, res) => {
     }
   })
 
+})
+
+server.listen(3000, 'localhost', () => {
+  console.log('listening for requests on port 3000');
 })
