@@ -114,7 +114,7 @@ select{
   padding: 1rem;
 }
 
-.select::after{
+.select::after {
   content: "\25BC";
   position: absolute;
   background: #ff6f47;
