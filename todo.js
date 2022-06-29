@@ -7,6 +7,8 @@ const todoList = document.querySelector('.todo-list');
 
 //add listener to add button and calls on function to create new element
 todoButton.addEventListener('click', addTodo);
+//adding an event listener to delete items? change so it MOVES ITEMS TO TRASH HTML page
+todoList.addEventListener('click', deleteCheck);
 
 //functions
 
@@ -37,4 +39,25 @@ function addTodo(event) {
     todoList.appendChild(todoDiv);
     //clear todo input value
     todoInput.value="";
+}
+
+//function delete check - use to move item to trash page
+function deleteCheck(e) {
+  const item = e.target;
+  //delete todo OR MOVE TO TRASH PAGE
+  if(item.classList[0] === "trash-btn") {
+    const todo = item.parentElement;
+    //animation
+    todo.classList.add("fall");
+    todo.addEventListener('transitionend', function(){
+        //find a way to make this put this item to trash html page
+        todo.remove();
+    })
+  }
+
+  //check mark to mark as completed - LEAVE AS IS and focus on moving trash to other page
+  if (item.classList[0] === "complete-btn") {   
+    const todo = item.parentElement;
+    todo.classList.toggle("completed");
+  }
 }
