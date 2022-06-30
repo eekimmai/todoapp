@@ -1,4 +1,3 @@
-<script>
 //selectors for getting elements
 const todoInput = document.querySelector('.todo-input');
 const todoButton = document.querySelector('.todo-button');
@@ -98,6 +97,3 @@ function filterTodo(e) {
         }
     })
 }
-
-//starting to connect todo.js to server.js
-</script>
