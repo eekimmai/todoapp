@@ -55,10 +55,16 @@ function deleteCheck(e) {
     const todo = item.parentElement;
     //animation
     todo.classList.add("fall");
+    //find a way to make this put this item to trash html page
     todo.addEventListener('transitionend', function (e) {
-        //find a way to make this put this item to trash html page
-        todo.remove();
+        if (todo != undefined && todo != null) {
+        document.getElementsByClassName("deleted-list").innerHTML = todo;
+        } else {
+            alert("Not working!")
+        }
     });
+    todo.remove();
+    console.log("moved to trash succesfully");
   }
 
   //check mark to mark as completed - LEAVE AS IS and focus on moving trash to other page
