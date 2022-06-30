@@ -97,3 +97,5 @@ function filterTodo(e) {
         }
     })
 }
+
+//starting to connect todo.js to server.js
