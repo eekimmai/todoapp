@@ -73,6 +73,24 @@ form button:hover{
   font-size: 1rem;
 }
 
+.topNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navButton {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navButton:hover{
+    background: #d88771;
+    color: white;
+}
+
 .complete-btn {
   background: rgb(73, 204, 73);
 }
