@@ -1,8 +1,8 @@
 # Todo App
-Todo Application
+
+This is a project building a fully functional Todo App. I used JavaScript, Node.js, Express.js, and MongoDB.
 
 ## Description
-This is a project building a fully functional Todo App. I used JavaScript, Node.js, Express.js, and MongoDB.
 
 Items added in the To Do list have the option to be in a completed / uncompleted state. User also has the option to delete items, which will be moved to a seperate page (trash.html). In the trash page, user has option to permanently delete or recover items on this page. All items saved will be pushed to MongoDB.
 
