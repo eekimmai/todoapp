@@ -1,8 +1,6 @@
 # Todo App
 Todo Application
 
----
-
 ## Description
 This is a project building a fully functional Todo App. I used JavaScript, Node.js, Express.js, and MongoDB.
 
