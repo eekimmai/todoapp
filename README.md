@@ -2,10 +2,20 @@
 
 This is a project building a fully functional Todo App. I used JavaScript, Node.js, Express.js, and MongoDB.
 
-## Instructions
+---
 
-To use this app, clone the repository and run npm install in terminal to download dependencies. Use npm server in terminal to start session, use localhost:3000 in web browser to view application. Application is a To Do app, add desired items user wants to complete, and they will be added to list. 
+## Project setup
+```
+npm install
+```
 
+### Compiles and runs
+```
+npm server
+```
+### Use application
+```
+localhost:3000 in web browser to view application
 ---
 
 ## Description
