@@ -10,11 +10,9 @@ Items added in the To Do list have the option to be in a completed / uncompleted
 
 ## Future Steps / Improvements
 
-The main issue encountered was moving items to the trash page, the function works however due to the live server reload, items moved to the trash page are deleted when clicking on the trash page since the page is reloaded and items do not appear there. 
+Improvements to the trash page coming soon, the function works however due to the live server reload, items moved to the trash page are deleted when clicking on the trash page since the page is reloaded and items do not appear there. Adding feature of saving / pushing items to Mongo DB. This to take the items from main page, along with their state, and pushing to MongoDB. Mongo DB is setup and connected to webpage using express.js, however building the connectivity from individual items on list and MongoDB was the issue. 
 
-Second issue is saving / pushing items to Mongo DB. Trouble taking the items from main page, along with their state, and pushing to MongoDB. Mongo DB is setup and connected to webpage using express.js, however building the connectivity from individual items on list and MongoDB was the issue. 
-
-Improving this would be working on the issues encountered, additionally with export function from MongoDB. 
+Improving this would be first, and next adding an export function from MongoDB. 
 
 ---
 
